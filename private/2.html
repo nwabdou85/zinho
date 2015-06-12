@@ -1,0 +1,223 @@
+<template name="Devis_demenagement">
+
+   <div class="container-fluid">
+    <div class="row clearfix">
+		<div class="col-xs-12 col-sm-12 col-md-12" style="padding-right: 0px">
+		 <section class="per">
+			<div class="row clearfix">
+				<div class="col-xs-2 col-sm-2 col-md-2">
+					<img alt="140x140" src="/logo.png" />
+				</div>
+				<div class="col-xs-10 col-sm-10 col-md-10">
+					<div class="row clearfix">
+						<div class="col-xs-12 col-sm-12 col-md-12">
+							<nav class="navbar navbar-default navbar-inverse navbar-static-top" role="navigation">
+								
+								<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+									<ul class="nav navbar-nav navbar-center" id="nav">
+										<li>
+										<a href="{{pathFor route='Home'}}" >Accueil</a>
+										</li>
+										<li>
+											<a href="{{pathFor route='Devis_demenagement'}}">Devis déménagement</a>
+										</li>
+										<li>
+											<a href="{{pathFor route='Devis_transport'}}">Devis transport</a>
+										</li>
+										<li>
+											<a href="{{pathFor route='Contact'}}">Contact</a>
+										</li>
+										<li>
+										<a href="https://www.facebook.com/profile.php?id=100008498131403" target="_blank"><img src="c_facebook.png"></a>
+										</li>
+									</ul>
+									
+								</div>
+								
+							</nav>
+						</div>
+					</div>
+					<div class="row clearfix">
+						<div class="col-xs-2 col-sm-2 col-md-2"></div>
+						<div class="col-xs-8 col-sm-8 col-md-8">
+							<h4 class="text-center" id="value">
+								La  Nouvelle solution du <span>transport & du déménagement </span>
+							</h4>
+						</div>
+					<div class="col-xs-2 col-sm-2 col-md-2"></div>
+					</div>
+				</div>
+			   </div><br /> <br /> <br /> 
+			</section> 
+		</div>
+	</div> 
+	<div id="devis">
+	<div class="row clearfix">
+	<div class="col-xs-1 col-sm-1 col-md-1">
+		</div>
+		<div class="col-xs-10 col-sm-10 col-md-10">
+				           <div class="wrappere">
+							<form role="form">
+							    <div class="form-headere">
+									 <h2 style="font-weight:bold"> Devis déménagement</h2>
+								</div>
+								<div class="row">
+						     	<div class="col-xs-6 col-sm-6 col-md-6">
+						     	<div class="form-group">
+									 <label for="nom2"> Nom</label><input type="text" class="form-control" id="nom2" />
+								</div>
+								<div class="form-group">
+									 <label for="depart2"> Adresse de départ </label><input type="text" class="form-control" id="depart2" />
+								</div>
+								
+								<div class="form-group">
+									 <label for="etage2"> Nombre d'étage </label><input type="number" class="form-control" id="etage2" />
+								</div>
+								<div class="form-group">
+									 <label for="telephone2"> Téléphone</label><input type="text" class="form-control" id="telephone2" />
+								</div>
+								<div class="form-group">
+									 <label for="arrive2">Adresse d'arrivée </label><input type="text" class="form-control" id="arrive2" />
+								</div>
+								<div class="form-group">
+									 <label for="etageA2"> Nombre d'étage </label><input type="number" class="form-control" id="etageA2" />
+								</div>
+						     	</div>
+						     	<div class="col-xs-6 col-sm-6 col-md-6">
+						     	<div class="form-group">
+									 <label for="prenom2">Prénom </label><input type="text" class="form-control" id="prenom2" />
+								</div>
+								<div class="form-group">
+									 <label for="postalD2">Code Postal</label><input type="text" class="form-control" id="postalD2" />
+								</div>
+								<div class="form-group">
+									 <label for="asscenseurD2">Dimension d'ascenseur</label><input type="text" class="form-control" id="asscenseurD2" />
+								</div>
+								<div class="form-group">
+									 <label for="email2"> Email</label><input type="email" class="form-control" id="email2" />
+								</div>
+								<div class="form-group">
+									 <label for="postalA2">Code postal </label><input type="text" class="form-control" id="postalA2" />
+								</div>
+								<div class="form-group">
+									 <label for="assenceurA2">Dimension d'ascenseur </label><input type="text" class="form-control" id="assenceurA2" />
+								</div>
+								
+						     	</div>
+						         </div>
+								<div class="form-group">
+									<textarea 
+									rows="3" cols="50" class="form-control" id="element2" placeholder="Lister les éléments  à déménager"></textarea>
+								</div>
+								
+
+								<div class="form-group">
+									 <button type="submit" class="btn btn-success">Envoyer</button>
+								</div>
+
+							</form>
+							</div>
+						</div>
+		<div class="col-xs-1 col-sm-1 col-md-1">
+		</div>
+	  </div> <br /> <br /> <br /> 
+	</div>
+    <div class="row clearfix">
+		<div class="col-xs-12 col-sm-12 col-md-12">
+		 <div id="footer">
+			<div class="row clearfix">
+				<div class="col-xs-6 col-sm-6 col-md-3">
+					<h5>
+						Nous contacter
+					</h5>
+					<ul style="List-Style-Type: None">
+						<li>
+							TEL/SMS
+						</li>
+						<li>
+							06-34-84-63-19
+						</li>
+						<li>
+							07-81-47-94-75
+						</li>
+						<li>
+							Email:
+						</li>
+						<li>
+							warning.demenagement@hotmail.com
+						</li>
+						<li>
+						<a href="{{pathFor route='mention_legale'}}" style="color:white"> Mentions légales</a>
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-3">
+					<h5>
+						Mots clés
+					</h5>
+					<ul style="List-Style-Type: None">
+						<li>
+							Devis transport pas cher
+						</li>
+						<li>
+							Devis déménagement pas cher
+						</li>
+						<li>
+							Transporteur
+						</li>
+						<li>
+							Livreur pas cher
+						</li>
+						<li>
+							Livraison rapide et pas cher
+						</li>
+						<li>
+							Déménagement et transfert 
+						</li>
+						<li>
+							Devis déménageur France
+						</li>
+						<li>
+							Utilitaires pas cher
+						</li>
+						<li>
+							Location camion avec chauffeur
+						</li>
+						<li>
+							Taxi camion
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-3">
+					<h5>
+						Condition de réglement
+					</h5>
+					<ul style="List-Style-Type: None">
+						<li>
+							Carte bancaire
+						</li>
+						<li>
+							ESPÈCES 
+						</li>
+					</ul>
+				</div>
+				<div class="col-xs-6 col-sm-6 col-md-3">
+					<h5>
+						UTILITAIRES 
+					</h5>
+					<ul style="List-Style-Type: None">
+						<li>
+							VITO : 6 à 8m3
+						</li>
+						<li>
+							Fiat Ducato : 10 à 14m3
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+   </div>
+</div>
+   
+</template>

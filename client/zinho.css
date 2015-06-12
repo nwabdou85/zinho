@@ -1,0 +1,247 @@
+                                        /* CSS declarations go here */
+
+section {
+ 
+  background-image: url('/soleill.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.per{
+	background-color: #ceedf4;
+	margin-left: -15px;
+	padding-right: 15px;
+	padding-left: 15px;	
+}
+
+#devisRapid h2 {
+  color: #1a171b;
+  line-height: 22px;
+  text-transform: uppercase;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 2.7rem;
+}
+
+#nav {
+  padding-left: 10%;
+  font-size: 2rem;;
+  font-weight: bold;
+  color: white;
+}
+.navbar-inverse .navbar-nav > li > a {
+color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+background-color: #f26a4b;
+}
+
+.per #value{
+
+ font-weight: bold;
+ margin-top: 0.5em;	
+ margin-bottom: 0.5em;
+font-family: 'Roboto Slab', serif;
+ /*font-size: 2em;*/
+text-transform: uppercase;
+font:  'RefrigeratorDeluxeW01-L';
+background-color: #91BA27;
+padding-bottom: 1rem;
+padding-top: 1rem;
+color:white;
+}
+
+.per #img img{
+  width: 44rem;
+}
+.per #img{
+  padding-top: 8%;
+}
+.per #imgg{
+
+  height: 22rem;
+  width: 19rem;
+}
+.btn-success{
+  background-color: #fbcb1c;
+  border-color: rgb(211, 211, 116);
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+ dt{
+  color: #13a4cc;
+  font-family: 'Crete Round', 'Arial', serif;
+  font-size: 1.5rem;
+ }
+dd {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.chauf h3 {
+	font-weight: bold;
+}
+#photo {
+	background-color: #c3c3c3;
+	margin-right: -15px;
+	margin-left: -15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 2em;
+	padding-bottom: 2em; 
+}
+.panel-body {
+ padding: 0px; 
+}
+#location {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#footer {
+	background-color: #181718; 
+/*	#7f7f7f;
+*/	margin-left: -15px;
+	margin-right: -15px;
+	padding-right: 30px;
+	padding-left:15px;
+	padding-top: 2em;
+	padding-bottom: 4em;
+	color: white;
+}
+#footer h5
+{
+	margin-left: 40px;
+	border-bottom: 1px solid red;
+}
+
+#footer li {
+font-family: Arial, Helvetica, sans-serif;
+ font-size: 12px;
+}
+
+#devis {
+	background-image:url('/devis_.jpg');
+	background-size: cover;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-right: 15px;
+	padding-left: 15px;
+	padding-top: 2em;
+	padding-bottom: 3em;
+}
+
+
+
+#devis1 {
+  background-image:url('/transport.jpg');
+  background-size: cover;
+  margin-left: -15px;
+  margin-right: -15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 2em;
+  padding-bottom: 3em;
+}
+
+.form-header {
+  background: #fff;
+  text-align: center;
+  font-size: 1.25rem;
+/*  font-weight: 600;
+*/  color: #212121;
+  padding: 0.5rem;
+  margin: 0 0 0rem;
+  position: relative;
+  font-weight: bold;
+  }
+
+  .form-headere {
+  background: rgba(225,225,225, 0.3);
+  text-align: center;
+  font-size: 1.25rem;
+/*  font-weight: 600;
+*/  color: #212121;
+  padding: 0.5rem;
+  margin: 0 0 0rem;
+  position: relative;
+  font-weight: bold;
+  }
+
+  .form-group {
+  margin: 1rem 2rem 1rem;
+}
+  
+
+.wrapper {
+  max-width: 500px;
+  width: 100%;
+  margin: 3rem auto;
+  background: #eceff1;
+  padding: 0 0 1rem; 
+}
+.wrapper label {
+  color: #13a4cc;
+  font-family: 'Crete Round', 'Arial', serif;
+  font-size: 16px;
+}
+
+.wrappere {
+  max-width: 500px;
+  width: 100%;
+  margin: 3rem auto;
+  background: rgba(225, 225, 225, 0.4);
+  padding: 0 0 1rem; 
+}
+
+.wrappere label {
+  font-family: 'Crete Round', 'Arial', serif;
+  }
+
+.wrapper h5 {
+	  margin: 2rem 2rem 1rem;
+	  text-align: center;
+    color: #475E1F;
+    font-family: "Alfa Slab One",cursive;
+}
+.panel-title {
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+.panel-danger {
+border-color: red;
+}
+.panel-danger > .panel-heading {
+background-color: red;
+border-color: red;
+color: white;
+}
+
+.panel-default {
+border-color: #acb3c4;
+}
+.panel-default > .panel-heading {
+color: white;
+background-color: #acb3c4;
+border-color: #acb3c4;
+}
+
+#mention {
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+}
+#mention h3 {
+font-weight: bold;
+border-bottom: 1px solid;
+margin-bottom: 3rem;
+}
+
+#contact {
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+}
+#contact h3 {
+font-weight: bold;
+border-bottom: 1px solid;
+margin-bottom: 3rem;
+}
